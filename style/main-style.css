@@ -1,0 +1,73 @@
+/*
+    Trabalho bimestral - LPW
+    Autor: Vinicius S.
+*/
+
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    font-family: 'Roboto Mono', monospace;
+
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2020/12/big-sur-4k_1608574481.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+h4{
+    color: white;
+    text-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.529);
+    margin-bottom: 15% !important;
+    text-align-last: center;
+}
+
+div.main form{
+    min-width: 250px;
+    padding: 0.25% 5%;
+}
+
+a{
+    line-height: 0px;
+    padding: 5px 0;
+    height: 50px;
+    text-decoration: underline;
+}
+.bot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+}
+
+#alerta{
+    color: rgb(253, 32, 32);
+    margin: 0;
+    font-size: smaller;
+}
+
+/* Efeito de vidro  */
+.glassmorphismo {
+    background: rgba(128, 128, 128, 0.22);
+    box-shadow: -2px 8px 32px 0 rgba(107, 107, 107, 0.37);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

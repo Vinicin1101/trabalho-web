@@ -1,0 +1,57 @@
+/* cor do label */
+.input-field label {
+    color: rgb(223, 223, 223) !important;
+    top: -0.5rem !important;
+}
+
+/* cor do undeline em foco */
+.input-field input[type]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+}
+
+/* cor do uderline */
+.input-field input[type], .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(186, 231, 247) !important;
+    box-shadow: none !important;
+}
+
+/* cor para campo valido */
+.input-field input[type].valid {
+    border-bottom: 1px solid rgb(59, 255, 58) !important;
+    box-shadow: none !important;
+}
+/* cor para campo invalido */
+.input-field input[type].invalid {
+    border-bottom: 1px solid rgb(253, 59, 59) !important;
+    box-shadow: none !important;
+    
+}
+/* tamanho maximo do container */
+.container{
+    max-width: 40% !important;
+}
+
+/* cor da checkbox */
+[type="checkbox"]:checked+span:not(.lever):before{
+    border-right: 2px solid #3f96dd !important;
+    border-bottom: 2px solid #3f96dd !important;
+}
+
+/* altura e cor do input */
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+
+    height: 2rem !important;
+    color: rgb(238, 238, 238) !important;
+    font-size: smaller !important;
+    
+}
+/* margem superior dos campos*/
+.input-field{
+    margin-top: 1.6rem !important;
+}
+
+.input-field label.active {
+    color: rgb(242, 242, 242) !important;
+    font-size: 70% !important;
+}
